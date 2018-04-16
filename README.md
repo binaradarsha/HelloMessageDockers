@@ -1,6 +1,6 @@
 This repository contains 2 sub projects for creating Docker containers.
 
-(1) Grpc front-end service
+(1) Grpc front-end service  
 (2) Grpc back-end service
 
 Commands to build Docker images:
