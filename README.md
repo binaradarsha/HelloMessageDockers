@@ -3,6 +3,8 @@ This repository contains 2 sub projects for creating Docker containers.
 (1) Grpc front-end service  
 (2) Grpc back-end service
 
+Run "mvn clean install" in both projects to build their jar distributions.  
+
 Commands to build Docker images:
 
 docker build -t binaradarsha/hellobackend:1.0 BackEnd/  
