@@ -18,4 +18,9 @@ docker run -d --name hellofrontend --link hellobackend1.0:hellobackend binaradar
 Check /etc/hosts file in hellofrontend container. It will contain a host entry called "hellobackend" mapped to ip address of hellobackend1.0 container.
 
 docker exec -it hellofrontend1.0 bash  
-cat /etc/hosts 
+cat /etc/hosts  
+
+
+Run the client program in front-end repository test package to send the message
+to front-end service. Then it will edit the message and passes to back-end
+service. It will further edit the message and send back the response to client.
